@@ -43,16 +43,9 @@ user_semaphores = {}
 user_tasks = {}
 
 HELP_MESSAGE = """Commands:
-⚪ /retry – Regenerate last bot answer
-⚪ /new – Start new dialog
-⚪ /mode – Select chat mode
-⚪ /settings – Show settings
-⚪ /balance – Show balance
-⚪ /help – Show help
-
-🎨 Generate images from text prompts in <b>👩‍🎨 Artist</b> /mode
-👥 Add bot to <b>group chat</b>: /help_group_chat
-🎤 You can send <b>Voice Messages</b> instead of text
+/retry – Regenerate last bot answer
+/new – Start new dialog
+/mode – Select chat mode
 """
 
 HELP_GROUP_CHAT_MESSAGE = """You can add bot to any <b>group chat</b> to help and entertain its participants!

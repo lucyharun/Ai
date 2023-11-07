@@ -1,4 +1,4 @@
-LucyGPT
+## LucyGPT
 ## Bot commands
 - `/retry` – Regenerate last bot answer
 - `/new` – Start new dialog
@@ -12,9 +12,11 @@ LucyGPT
 
 2. Telegram bot token
 
-3. Edit `config/config.example.yml` and `config/config.example.env`):
+3. Edit `config/config.example.yml` and `config/config.example.env`:
     ```bash
     mv config/config.example.yml config/config.yml
+    ```
+    ```bash
     mv config/config.example.env config/config.env
     ```
 
